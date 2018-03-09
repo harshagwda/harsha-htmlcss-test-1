@@ -1,6 +1,6 @@
 p{ line-height: 16px; }
 h1, h2, h3, h4{
-	color: orange;
+	color: white;
 	font-weight: normal;
 	line-height: 60px;
 	margin: 0 0 8px 0;
@@ -155,14 +155,21 @@ p
 	box-sizing: border-box;
 }
 
+.message{
+	height: 112px;
+}
 
+.sub{
+    margin-left: 879px;
+    margin-top: 71px;
+}
 
 
 h1{margin-left: 20px;text-align: center;}
 
 .ps
 {
-	width: 30%;
+	width: 573px;
 	padding: 12px 20px;
 	margin: 8px 0;
 	display: inline-block;
@@ -177,7 +184,7 @@ h1{margin-left: 20px;text-align: center;}
 
 
 
-	
+
 
 }
 .ps2
@@ -203,7 +210,7 @@ h1{margin-left: 20px;text-align: center;}
 	cursor: pointer;
 	outline: none;
 	color: white;
-	background-color: #4CAF50;
+	background-color: grey;
 	border: none;
 	border-radius: 0;
 	box-shadow: 0 5px #999;
@@ -256,3 +263,82 @@ div{
 	box-shadow: 0px 1px 1px #666;
 }
 #nav-contact ul li a:active{ background-color: #ff8f00; }
+
+
+.lastname{
+	margin-left: 1000px;
+    margin-top: -85px;
+}
+
+.columns {
+    float: left;
+    width: 25%;
+    padding: 8px;
+}
+.grey-up{
+	height: 300px;
+}
+
+.grey-up-icon{
+	height: 700px;
+}
+
+.image-price{
+	height: 230px;
+}
+
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    background-color: #ccc;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+}
+
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.price .grey {
+    background-color: #777;
+    font-size: 15px;
+    text-align: left;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.container .checkmark:after {
+    left: 17px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+ }
+
+ .check{
+ 	margin-left: 287px;
+    width: 54px;
+ }
