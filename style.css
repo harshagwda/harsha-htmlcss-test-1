@@ -14,7 +14,8 @@ a:hover,a:active{
 }
 
 body{
-	font-family: arial; font-size: 80%; line-height: 19px; width: 147%; margin: 0; background: #eee; 
+
+	font-family: arial; font-size: 80%; line-height: 19px; width: 147%; margin: 0; background: #eee;
 }
 
 #page{ margin: 17px; }
@@ -100,7 +101,11 @@ body
 	margin: 0; 
 } 
 div#slider { overflow: hidden; }
+
 div#slider figure img { width: 20%; float: left; height: 500px; }
+
+div#slider figure img { width: 20%; float: left; }
+
 div#slider figure { 
 	position: relative;
 	width: 500%;
@@ -164,11 +169,42 @@ p
 }
 
 
+
+}
+
+
+.it-nav 
+{
+	width: 83px;
+	background-color: #2badd9;
+	float: left;
+	shape-outside: url(7.png);
+	margin-left: 59px;
+	margin-bottom: -55px;
+}
+* {
+	box-sizing: border-box;
+}
+
+.message{
+	height: 112px;
+}
+
+.sub{
+    margin-left: 879px;
+    margin-top: 71px;
+}
+
+
+
 h1{margin-left: 20px;text-align: center;}
 
 .ps
 {
+
 	width: 430px;
+
+	width: 573px;
 	padding: 12px 20px;
 	margin: 8px 0;
 	display: inline-block;
@@ -219,10 +255,17 @@ h1{margin-left: 20px;text-align: center;}
 
 }
 .button:hover{
+
 	background-color: #1E90FF;
 }
 .button:active{
 	background-color:#ff0000;
+
+	background-color: #ff0000;
+}
+.button:active{
+	background-color:#800000;
+
 	box-shadow: 0 0px #666;
 	transform: translateY(3px);
 }
